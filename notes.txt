@@ -1,0 +1,11 @@
+mkdir => used to make directory
+
+echo '' > <filename> =>cretes a file
+
+dir => to show directory
+
+del filename => delete a file
+hw
+ find your age 
+then 
+find how many years for car license
