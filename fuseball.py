@@ -1,102 +1,46 @@
 class Player():
-    def __init__(self,first,last,club,jerseynumber,position):
-        self.first=first
-        self.last=last
-        self.jerseynumber=jerseynumber
-        self.position=position
-        self.club=club
-    def greeting (self):
-        return "Hi, I am {} {}. I play the role of {}".format(self.first,self.last,self.position)    
-pl_1=Player("christiano","ronaldo","Portugal national football ","7","forward")
-print(pl_1.greeting())
-
-# ============= #
-
-class Player2():
-    def __init__(self,first,last,club,jerseynumber,position):
-        self.first=first
-        self.last=last
-        self.jerseynumber=jerseynumber
-        self.position=position
-        self.club=club
-    def greeting2 (self):
-        return "Hi, I am {} {}. I play the role of {}".format(self.first,self.last,self.position)    
-pl_2=Player2("pepe","pepe","Portugal national football ","3","defender")
-print(pl_2.greeting2())
-
-# ============ #
-
-class Player3():
-    def __init__(self,first,last,club,jerseynumber,position):
-        self.first=first
-        self.last=last
-        self.jerseynumber=jerseynumber
-        self.position=position
-        self.club=club
-    def greeting3 (self):
-        return "Hi, I am {} {}. I play the role of {}".format(self.first,self.last,self.position)    
-pl_3=Player3("pepAndré ","Silvae","Portugal national football ","9","forward")
-print(pl_3.greeting3())
-
-# ============ #
-
-class Player4():
-    def __init__(self,first,last,club,jerseynumber,position):
-        self.first=first
-        self.last=last
-        self.jerseynumber=jerseynumber
-        self.position=position
-        self.club=club
-    def greeting4 (self):
-        return "Hi, I am {} {}. I play the role of {}".format(self.first,self.last,self.position)    
-pl_4=Player4("Ricardo  ","Quaresma","Portugal national football ","20","midfielder")
-print(pl_4.greeting4())
-
-# ============ #
-
-class Player5():
-    def __init__(self,first,last,club,jerseynumber,position):
-        self.first=first
-        self.last=last
-        self.jerseynumber=jerseynumber
-        self.position=position
-        self.club=club
-    def greeting5 (self):
-        return "Hi, I am {} {}. I play the role of {}".format(self.first,self.last,self.position)    
-pl_5=Player5(" RUI   ","PATRICIO","Portugal national football ","1","midfielder")
-print(pl_5.greeting5())
-
-# ============ #
-
-class Player6():
-    def __init__(self,first,last,club,jerseynumber,position):
-        self.first=first
-        self.last=last
-        self.jerseynumber=jerseynumber
-        self.position=position
-        self.club=club
-    def greeting6 (self):
-        return "Hi, I am {} {}. I play the role of {}".format(self.first,self.last,self.position)    
-pl_6=Player6(" RUI   ","PATRICIO","Portugal national football ","1","midfielder")
-print(pl_6.greeting6())
-
-# =========== #
-
-class Player5():
-    def __init__(self,first,last,club,jerseynumber,position):
-        self.first=first
-        self.last=last
-        self.jerseynumber=jerseynumber
-        self.position=position
-        self.club=club
-    def greeting5 (self):
-        return "Hi, I am {} {}. I play the role of {}".format(self.first,self.last,self.position)    
-pl_5=Player5(" RUI   ","PATRICIO","Portugal national football ","1","midfielder")
-print(pl_5.greeting5())
-
-
-
-
+    def __init__(self,firstName,lastName,position,number,club):
+        self.firstName = firstName
+        self.lastName = lastName
+        self.position = position
+        self.number = number
+        self.club = club
+    def greating(self):
+        return "I am {}.{}, I am a {}, My jersey number is {}, I play for {}".format(self.firstName,self.lastName,\
+        self.position,self.number,self.club)
+player_1 = Player("D","de Gea","goalkeeper",1,"Manchester United")
+player_2 = Player("A","Young","defender",18,"Manchester United")
+player_3 = Player("V","lindelof","defender",2,"Manchester United")
+player_4 = Player("P","Jones","defender",4,"Manchester United")
+player_5 = Player("D","dalot","defender",20,"Manchester United")
+player_6 = Player("A","Herrera","RM",21,"Manchester United")
+player_7 = Player("N","matić","CM",31,"Manchester United")
+player_8 = Player("P","Pogba","LM",6,"Manchester United")
+player_9 = Player("J","lingard","RW",14,"Manchester United")
+player_10 = Player("M","Rashford","CF",10,"Manchester United")
+player_11 = Player("A","Martial","LW",11,"Manchester United")
+print(player_1.greating())
+print(" - ")
+print(player_2.greating())
+print(" - ")
+print(player_3.greating())
+print(" - ")
+print(player_4.greating())
+print(" - ")
+print(player_5.greating())
+print(" - ")
+print(player_6.greating())
+print(" - ")
+print(player_7.greating())
+print(" - ")
+print(player_8.greating())
+print(" - ")
+print(player_9.greating())
+print(" - ")
+print(player_10.greating())
+print(" - ")
+print(player_11.greating())
+print(" - ")
 
 
 
