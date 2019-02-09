@@ -7,4 +7,3 @@ def f(n):
         return f(n-1) + f(n-2)        
 n=int(input("please enter a number")) 
 print(f(n))       
-        
